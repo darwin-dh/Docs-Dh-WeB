@@ -40,7 +40,12 @@ module.exports = {
     ],
     sidebar: [
       '/',
-      '/01-Html-Básico/'
+      '/01-Html/',
+      '/02-css/',
+      '/03-js/',
+      '/04-vuejs/',
+      '/05-php/',
+      '/06-laravel/'
     ]
   },
   plugins: [

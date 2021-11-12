@@ -1,4 +1,4 @@
-#  Html Básico
+#  Html
 ## Qué es html
 #### Definición
  HTML es un lenguaje de marcado o etiquetas,siglas en inglés de HyperText Markup Language
@@ -20,7 +20,7 @@ Ejemplo: lang="es"
  __La etiqueta title__: define el título de un documento. Esta etiqueta es obligatoria dentro de la sección head.
  :::
  ::: tip Tag meta
- __La etiqueta title__: define el título de un documento. Esta etiqueta es obligatoria dentro de la sección head.
+ __La etiqueta Meta__: define el título de un documento. Esta etiqueta es obligatoria dentro de la sección head.
  :::
 
 #### Ejemplo
