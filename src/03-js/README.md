@@ -193,3 +193,41 @@ El método map() crea un nuevo array con los resultados de la llamada a la funci
     })
 
 ```
+### Map poke API
+```js
+const obtenerPokemos = async ()=>{
+    try {
+        const respokeapi await fetch('https://pokeapi.co/v2/pokemon')
+        const data = await respokeapi.json()
+        console.log(data)
+        //metodo map
+        const nombrePoke =  data.results.map(poke => poke.url)
+        console.log(nombrePoke)
+    }catch (e) {
+        console.log(e);
+    }
+}
+obtenerPokemos()
+```
+## Método filter
+El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+[Mas información](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+```js
+const letras =['darwin','b','c','d','e','f']
+const resultado = letras.filter(letra=>letra==='darwin')
+console.log(resultado)
+```
+### Filter poke API
+```js
+const obtenerPokemos = async ()=>{
+    try {
+        const respokeapi await fetch('https://pokeapi.co/v2/pokemon')
+        const data = await respokeapi.json()
+        console.log(data)
+        //metodo filter
+        const nombrePoke =  data.results.filter(poke => poke.name === 'bulbasaur')
+        console.log(nombrePoke)
+    }catch (e) {
+        console.log(e);
+    }
+}
